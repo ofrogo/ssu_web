@@ -1,0 +1,44 @@
+.registr {
+    font-size: 25px;
+    border-bottom: 1px solid #ffffff;
+    padding: 17px 0 10px 20px;
+}
+
+.formReg {
+    width: 410px;
+    margin: 20px;
+    border: 2px solid #0075B2;
+    font: 15px sans-serif;
+    background: #0690CF;
+    color: #fff;
+}
+
+.em {
+    margin: 30px 10px 0 20px;
+}
+
+.pas {
+    float: left;
+    margin: 25px 0 15px 20px;
+}
+
+.email {
+    border: 1px solid #ABADB3;
+    height: 17px;
+    width: 326px;
+}
+
+.password {
+    border: 1px solid #ABADB3;
+    height: 17px;
+    width: 150px;
+}
+
+.but {
+    font-size: 12px;
+    margin: 20px;
+    height: 23px;
+    width: 77px;
+    border: none;
+    background: #FFDF7F;
+}

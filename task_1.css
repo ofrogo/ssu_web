@@ -1,0 +1,21 @@
+.menu {
+    width: 200px;
+    background-color: #f9e497;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 11px;
+    box-shadow: 5px 5px #880000;
+}
+
+.list {
+    list-style: none;
+    color: #880000;
+    padding: 4px 0 4px 8px;
+    line-height: 25px;
+    font: 16px serif;
+    margin: 10px 0 0 0;
+}
+
+li {
+    padding-bottom: 10px;
+}

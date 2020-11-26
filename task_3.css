@@ -1,0 +1,36 @@
+body {
+    background-color: #333;
+}
+
+.dist {
+    background-color: #88B7D5;
+    color: #fff;
+    margin: 45px auto;
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 5px solid #C2E1F5;
+    position: relative;
+}
+
+.dist::before,
+.dist::after {
+    content: '';
+    bottom: 100%;
+    left: 50%;
+    position: absolute;
+    border: solid transparent;
+}
+
+.dist::before {
+    margin-left: -36px;
+    border-width: 36px;
+    border-bottom-color: #C2E1F5;
+}
+
+.dist::after {
+    margin-left: -30px;
+    border-width: 30px;
+    border-bottom-color: #88B7D5;
+}

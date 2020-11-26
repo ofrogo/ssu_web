@@ -1,0 +1,46 @@
+body {
+    background: rgb(65, 90, 109);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0px 50px 10px #222;
+    padding: 10px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.block {
+    margin: 10px;
+    background: #fff;
+    text-align: center;
+    color: rgb(235, 84, 33);
+    font-weight: bold;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.first,
+.second {
+    border-right: 1px solid #aaa;
+    float: left;
+}
+
+.third {
+    border: none;
+}
+
+.text {
+    color: #000;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.but {
+    padding: 5px 10px;
+    background: rgb(235, 84, 33);
+    color: #fff;
+    border: none;
+}
